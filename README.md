@@ -44,14 +44,16 @@ Conclusion for Outcomes based on Launch Date is  Lousie's Theater catergory was 
 - worksheet added to the Kickstarter file -  "Successful theater Kickstarter", "Failed theater Kickstarter","Descriptive Statistics theater". 
 
 Box and whiskers plot graph explains Louise campaign needs to be  Less than $1000 to be successful.
-![main](Resources/Boxplot Theater.png)
+![BoxPlot Theater](https://user-images.githubusercontent.com/93801581/147512509-2cf4412c-df88-4623-85c8-d9bc7402e153.png)
+
 
 
 Conclusion for Outcomes based on Goals is Louise's Plays Subcategory made the most success when the goals were less than $1000 range.
 - worksheet added to the Kickstarter file -  "Successful Plays Kickstarter", Failed theater Plays Kickstarter,Descriptive Statistics Plays". 
 
 Box and whiskers plot graph for the Play subcategory based on Goal and Pledged amounts
-![main](Resources/Boxplot Play.png)
+![Boxplot Play](https://user-images.githubusercontent.com/93801581/147512527-bad42651-8460-402e-b5a9-9061bba71a88.png)
+
 
 
 - What are some limitations of this dataset?
