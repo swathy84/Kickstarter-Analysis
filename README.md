@@ -1,39 +1,65 @@
-# An Analysis of Kickstarter Campaigns 
-Getting to know the Louise's "Kickstarter" Campaign file by formating, filtering, identifying the different data fields and numbers of data present in the data file.
 
-Added new columns Percentage funded, Average donations and retrieved values based on Goal, Pledged and Backers_count to "Kickstarter " file.
+# Analysis of Kickstarter Campaign
 
-Created a new  column to split "Category and Sub catergory " field into Parent category and Sub category to make the data more detailed for analysing in the Kickstarter file.
+## Overview of the Project 
+Analyzing the Louise's Kickstarter campaign file to determine which category was the most successful. 
 
-Used Pivot table and Pivot Chart for Parent category based on outcomes to analyze the Theatre category was the  most successful campaign Louise has among all the other categories . 
--Worksheet added to the Kickstarter file is "Category Statistics"
-Below is the Picture image of the analyzation.
-![Parent Category Outcomes](https://user-images.githubusercontent.com/93801581/147291012-a82957e2-173a-4955-bbf8-e3b2e39acbf7.png)
+### Step 1. Profile the data
+ Reviewed the Louise's "Kickstarter" Campaign file by formating, filtering, identifying the different data fields and numbers of records present in the data file.
 
-Next, to analyze which sub category was most successful, we are using the Pivot table and Pivot chart based on Sub categories related to the outcomes. We analyzed "Plays" sub category was the most successful .
--Worksheet added to the Kickstarter file are "Pivot table-Sub category Statistics" and "Subcategory statistics"
-Below are the pictures
+After modifying the Kickstarter data file by adding fields like Percentage funded,Average donations,Parent category,sub category,Date created conversion,Date ended conversion,Years within the file, analyzed that Theater/Play category was successful than others catergories.
+!
 
-![Subcategory Outcome US](https://user-images.githubusercontent.com/93801581/147291579-2e5cfb0c-d2c0-4d96-8705-00090f9f50e1.png)
-![Subcategory Outcomes GB](https://user-images.githubusercontent.com/93801581/147291581-18d6b8bd-6fd8-4663-8cf4-e3ea5bdb4828.png)
+### Step 2. Trying to analyze the data of Theater/play category based on Launch dates and funding goals
 
-Next,  to analyze the Theatre catergory campaign progressed by month to month based on Outcomes, we first converted the datestamp in the Kickstarter  data file for Launch date  and created a new filed with conversion date and used Pivot table and Pivot chart to analyze which month  the most successful campaign occur. 
--Worksheet added to the Kickstarter file is " Outcome based on Launch Date"
-Below is picture of analyzation. 
-![OutcomeBasedOnLaunchDate](https://user-images.githubusercontent.com/93801581/147292454-e8b01c19-7d98-4a62-89cb-b1668fadf8e9.png)
+### Analysis of Outcomes Based on Launch Date
+  
+To determine the campaign status for Theater catergory in relation to their Launch dates and Outcomes
 
-Since Louise was inspired by particular plays for Edinburgh , we used VLookup function to retrieved data  from the Kickstarted data file  and created a new worksheet for Edinburgh analysis. 
--Workeet  name added in Kickstarter file is " Edinburgh Research"  
+Modified the file by adding "Year" filed by calculate the year from the "Date created conversion" column.
+Pivot table and Pivot Chart for the Theater category was created to view the staus of the outcomes against months of the years.
+-Worksheet added to the Kickstarter file  -  "Theater Outcomes by Launch Date"
 
-Created an new work sheet to  Use Measure of central tendancy and Measure of spread to do a descriptive statistics analyzation on Theater/Play category in the US and compared the statistics for the campaigns that succeeded versus failed   
-- Workseet names added in the Kickstarter file are "Successful US Kickstarters", "Failed US Kickstarters","Descriptive Statistics"
+Pivot table and Pivot chart to view the Theater category analysis based on Outcomes (Success,Failed,Canceled) against months of the year.
+!
 
-also created a new work sheet  Used Measure of central tendancy and Measure of spread to do a descriptive statistics analyzation on Technolgy/Wearables category in the US and compared the statistics for the campaigns that succeeded versus failed to see how the data is showing other than Theater/plays category in Louise's campaign.
-- Workseet names added in the Kickstarter file are "SuccessfulUSKickstarterTech", "FailedUSKickstarterTech","Descriptive Statistics Tech"
 
-Next ,created an Outlier using Box and whisker plots to compare the distribution of the campaign goals and the distribution of the total amounts pledged for Musical in Great Britain
--Worksheet added ot Kickstarter is "Chart 1 " 
-- Below is the Picture for Bos and Whisker plot for Great Britain - Musical campaign analyzed based on Goal and Pledged amounts
-![Box and Whisker plots GB Musical](https://user-images.githubusercontent.com/93801581/147299213-9a4a6a1e-00ae-4c01-812d-cbf3d023e2b1.png)
+### Analysis of Outcomes Based on Goals
 
-The conclusion is Louise campaign had a successful outcome for Theater/Play category 
+To determine the Campaign status for Play Subcategory in relation to their Goal and Outcomes
+
+New sheet added by extracting data of Goals and Outcomes filed from the Kickstarter file to analyze deeper into the Goals based on the outcomes.
+-Worksheet added to the Kickstarter file  - "Outcome Based on Goals"
+
+Pivot table and Pivot line chart to view the Plays analysis based on Outcomes for the Goal ranges. 
+!
+
+
+### Challenges and Difficulties Encountered
+Sorting the Goal ranges in the Line chart for the  "Outcomes based on Goal" analysis. 
+
+## Results
+
+Conclusion for Outcomes based on Launch Date is  Lousie's Theater catergory was most successful in May month of all the years from the "Launch date" field.
+- worksheet added to the Kickstarter file -  "Successful theater Kickstarter", "Failed theater Kickstarter","Descriptive Statistics theater". 
+
+Box and whiskers plot graph explains Louise campaign needs to be  Less than $1000 to be successful.
+!
+
+
+Conclusion for Outcomes based on Goals is Louise's Plays Subcategory made the most success when the goals were less than $1000 range.
+- worksheet added to the Kickstarter file -  "Successful Plays Kickstarter", Failed theater Plays Kickstarter,Descriptive Statistics Plays". 
+
+Box and whiskers plot graph for the Play subcategory based on Goal and Pledged amounts
+!
+
+
+- What are some limitations of this dataset?
+Box and Whishker plot graphs for Theater/Plays Category above helped us analyze there are many outliers above $30000 goal amount. To be successful, Louies's campaign needs to be less than $1000 to be successful. 
+
+- What are some other possible tables and/or graphs that we could create? 
+The data for the Outcomes based on goals can also be interpreted using Bar chart where we can analyze the Percentage of success and failure in a better way for the Plays Subcategory. 
+!
+ 
+ Box and Whiskers plots graph for Theater/Plays category taking Goals and Pledged amounts determines the outliers for the Theater/Plays catergory campaign.
+!
