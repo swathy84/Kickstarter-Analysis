@@ -21,7 +21,7 @@ Pivot table and Pivot Chart for the Theater category was created to view the sta
 -Worksheet added to the Kickstarter file  -  "Theater Outcomes by Launch Date"
 
 Pivot table and Pivot chart to view the Theater category analysis based on Outcomes (Success,Failed,Canceled) against months of the year.
-![main](Resources/OutcomesBasedOnGoals.png)
+![main](Resources/Theater_Outcomes_vs_Launch.png)
 
 
 ### Analysis of Outcomes Based on Goals
