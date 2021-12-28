@@ -13,6 +13,9 @@ After modifying the Kickstarter data file by adding fields like Percentage funde
 
 ![main](Resources/Kickstarter.png)
 
+
+#### PS: Readme_Kickstarter.md is the initial analysis  of Kickstarter file.
+
 ### Step 2. Trying to analyze the data of Theater/play category based on Launch dates and funding goals
 
 ### Analysis of Outcomes Based on Launch Date
